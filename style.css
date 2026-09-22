@@ -12,7 +12,17 @@ body {
     align-items: center;
 
     font-family: mobSanity;
-    font-size: 13em;
+    font-size: 36em;
     background-color: black;
     color: white;
+}
+
+#counterDisplay {
+    perspective: 1200px;
+    transform: translateY(-48px);
+}
+
+#counterText {
+    transform-origin: bottom;
+    transform: rotateX(24deg);
 }
