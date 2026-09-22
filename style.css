@@ -1,0 +1,18 @@
+@font-face {
+    font-family: mobSanity;
+    src: url('assets/fonts/MobSanity.ttf') format(TrueType);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: mobSanity;
+    font-size: 13em;
+    background-color: black;
+    color: white;
+}
